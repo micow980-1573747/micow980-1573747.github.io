@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)http://winhost6.ischool.uw.edu/gclass/files/activities/build_w3/forms.html -->
+<html class="gr__winhost6_ischool_uw_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title> Best NFL Team </title>
+</head>
+<body data-gr-c-s-loaded="true">
+
+<h2><em><b> </b>Best NFL Team</b> </em> </h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend><b>Create an Account</b></legend>
+		<div class="field">
+			<label>Username:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>Email:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<div class="field">
+			<label>Team:</label> 
+			<select name="state">
+				<option value="" selected="true">Choose a State</option>
+				<option value="AL">Arizona Cardinals</option>
+				<option value="AK">Atlanta Falcons</option>
+				<option value="AZ">Baltimore Ravens</option>
+				<option value="AR">Buffalo Bills</option>
+				<option value="CA">Carolina Panthers</option>
+				<option value="CO">Chicago Bears</option>
+				<option value="CT">Cincinnati Bengals</option>
+				<option value="DE">Cleveland Browns</option>
+				<option value="DC">Dallas Cowboys</option>
+				<option value="FL">Denver Broncos</option>
+				<option value="GA">Detroit Lions</option>
+				<option value="HI">Green Bay Packers</option>
+				<option value="ID">Houston Texans</option>
+				<option value="IL">Indianapolis Colts</option>
+				<option value="IN">Jacksonville Jaguars</option>
+				<option value="IA">Kansas City Chiefs</option>
+				<option value="KS">Los Angeles Chargers</option>
+				<option value="KY">Los Angeles Rams</option>
+				<option value="LA">Miami Dolphins</option>
+				<option value="ME">Minnesota Vikings</option>
+				<option value="MD">New England Patriots</option>
+				<option value="MA">New Orleans Sants</option>
+				<option value="MI">New York Giants</option>
+				<option value="MN">New York Jets</option>
+				<option value="MS">Oakland Raiders</option>
+				<option value="MO">Philidelphia Eagles</option>
+				<option value="MT">Pittsburgh Steelers</option>
+				<option value="NE">San Francisco 49ers</option>
+				<option value="NV">Seattle Seahawks</option>
+				<option value="NH">Tampa Bay Buccaneers</option>
+				<option value="NJ">Tennessee Titans</option>
+				<option value="NM">Washington Redskins</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>Star Player:</label> 
+			<input type="text" name="zip">
+		</div>
+		<div class="field">
+			<label>Number of Titles:</label> 
+			<select name="state">
+				<option value="" selected="true">Choose Number of Titles</option>
+				<option value="AL">1</option>
+				<option value="AK">2</option>
+				<option value="AZ">3</option>
+				<option value="AR">4</option>
+				<option value="CA">5</option>
+				<option value="CO">6</option>
+				<option value="CT">7</option>
+				<option value="DE">8</option>
+				<option value="DC">9</option>
+				<option value="FL">10</option>
+			</select>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend> <b>Conference Availability</b></legend>
+		<div class="field">
+			<label>Would you be able to come in for a discussion</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field">
+			<label>What type of fan are you? <em>(Select All That Apply)</em></label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="parttime">Band Wagon</li>
+				<li><input type="checkbox" name="position_ft" value="fulltime">Part Time</li>
+				<li><input type="checkbox" name="position_sl" value="seasonal">Dedicated</li>
+				<li><input type="checkbox" name="position_tp" value="temporary">Obessed</li>
+				<li><input type="checkbox" name="position_tp" value="temporary">Analyst</li>				
+				<li><input type="checkbox" name="position_tp" value="temporary">Fantasy</li>				
+				<li><input type="checkbox" name="position_tp" value="temporary">NFL Prospect</li>				
+
+			</ul>
+		</div>
+		<div class="field">
+			<label>When could you come in and debate this?</label>
+			<table>
+				<tbody><tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>At</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+			</tbody></table>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Why is your team the best?</legend>
+		<div class="field">
+			<label>Thesis</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Where do you think your team will be at the end of the season?:</label><br>
+			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+	
+	<fieldset>
+	<a href="http://www.wwe.com">The Best Sport Out There</a>
+	</fieldset>
+
+	<form action="www.wwe.com" method="post"> ... </form>
+
+	<img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fblakeoestriecher%2Ffiles%2F2019%2F03%2FCenaJoe-1200x675.jpg">
+</form>
+
+</body></html>
